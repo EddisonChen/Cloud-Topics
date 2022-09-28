@@ -2,7 +2,7 @@ Topics
 
 Cloud & DevOps
   - The cloud is the hosting and storage of data and services or applications on external servers that are not your own, generally owned by AWS, GCP, or Azure.
-  - DevOps is a methodology that focuses on continual delivery and review of software and bridges the gap between development and infrastructure.
+  - DevOps is a methodology that focuses on continual delivery and review of software and bridges the gap between development and infrastructure by having a team be       responsible for all of developing, testing, deploying, and maintaining infrastructure.
   
   - So far, we've created instances on AWS and GCP and hosted APIs and databases in the cloud. Currently, we're working on a project that centers around uploading         trainee profiles as PDFs into a database hosted in AWS. The entire application will also be deployed in AWS.
   - We've also been working on using different tools for automation and deployment of infrastructure, which directly benefits the development of our applications.
