@@ -26,3 +26,11 @@ Provisioning
   - Provisioning is the process of setting up infrastructure and allocating resources. This can be be done manually and automatically using tools like Terraform and       Docker, which can be used to set up virtual environments or cloud instances on which applications can be deployed.
   - We have provisioned virtual environments manually using Vagrant to launch a local virtual machine and AWS to launch instances, but we have also used Terraform to       launch databases and instances in AWS and on a local server. We learned how to use Docker to create and provision containers for applications.
   - The benefits of provisioning and creating virtual environments is mainly for compatibility and repeatability. When deploying and testing applications on virtual       machines, the environments are all identical, and factors such as different specifications or operating systems don't play a role. This makes the testing process       much easier and more repeatable.
+  
+Networking
+
+Principle of Least Privilege
+
+IAC
+
+Packer and Terraform
