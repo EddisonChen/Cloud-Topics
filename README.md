@@ -28,9 +28,20 @@ Provisioning
   - The benefits of provisioning and creating virtual environments is mainly for compatibility and repeatability. When deploying and testing applications on virtual       machines, the environments are all identical, and factors such as different specifications or operating systems don't play a role. This makes the testing process       much easier and more repeatable.
   
 Networking
+  - Networking is the process of and factors involved in connecting different computers or machines.
+  - We've done some networking when connecting different virtual machines using vagrant, and when connecting our computers to AWS/GCP instances. We're also using           Docker to connect different containers.
+  - The benefits of networking is essentially just communication and transfer of data/information between machines.
 
 Principle of Least Privilege
+  - This principle means that users of a service are only granted enough access to do their jobs or what they need to do. Users aren't given access or permissions to       data/services that is not necessary for them.
+  - We've done some permissions settings when using Terraform and creating databases and users for those databases. We had to set access rights for those users, to         determine if they could create, select, update, or delete, or any combination of these privileges.
 
 IAC
+  - Infrastructure as code is using code to provision and manage infrastructure, things like cloud instances, databases, etc. 3 Tools used for this are Ansible,           Terraform, and Packer.
+  - We've used IAC when using Terraform to provision AWS instances and databases, and Packer to create AMIs in AWS.
+  - The benefit of IAC is that it automates the provisioning of environments/infrastructure for developers and makes creating a specific environment much more             shareable and reproducible. This makes the process more efficient.
 
 Packer and Terraform
+  - Packer and Terraform are both IAC tools used to provision infrastructure. Packer is used to create images for different platforms, and terraform is used to             provision different types of infrastructure.
+  - We've used Terraform to provision AWS instances and databases, and Packer to create AMIs in AWS.
+  - The benefit of Packer and Terraform is the same as for IAC. These tools allow for the automating of provisioning infrastructure and increases efficiency by making     environments more reproducible and shareable.
